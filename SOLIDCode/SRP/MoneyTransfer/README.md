@@ -34,24 +34,6 @@ The system was refactored into **independent classes**, each with a single respo
 - Demonstrates **professional refactoring and design thinking**
 
 ---
-
-## 📂 Folder Structure
-
-SOLIDCode/
-└── SRP/
-└── MoneyTransfer/
-├── BeforeRefactor/ # Original monolithic code
-│ └── MoneyTransferSystem.java
-└── AfterRefactor/ # SRP refactored code
-├── AccountService.java
-├── ValidationService.java
-├── NotificationService.java
-├── AccountException.java
-└── MainAfterRefactor.java
-
-
----
-
 ## ⚡ How to Run
 
 1. Compile all classes:
@@ -83,3 +65,16 @@ Scalable code: Components are independent and scalable
 👤 Author
 
 Karthik Kolli 
+## 📂 Folder Structure
+
+SOLIDCode/
+└── SRP/
+└── MoneyTransfer/
+├── BeforeRefactor/ # Original monolithic code
+│ └── MoneyTransferSystem.java
+└── AfterRefactor/ # SRP refactored code
+├── AccountService.java
+├── ValidationService.java
+├── NotificationService.java
+├── AccountException.java
+└── MainAfterRefactor.java
